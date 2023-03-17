@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+
+.topnav{
+	border-radius:10px 10px 3px 3px;
+	border: 2px solid #708090;
+	height:60px;
+	float:center;
+	width:60%;
+	position:absolute;
+	background-color:black;
+	overflow-x: hidden;
+	border-bottom:2px solid white;
+}
+
+.topnav .right .s{
+	font-size:35px;
+}
+
+.topnav a.action{
+	background-color:black;
+}
+
+
+.topnav .logout{
+	display:none;
+	text-style:underline;
+	background-color:white;
+	float:right;
+	z-index:1;
+	border-radius:3px;
+	margin-left:39%;
+	padding:5px 13px;
+	font-size:20px;
+	border:3px double black;
+	position:fixed;
+}
+
+
+.topnav a.right{
+	margin-right:20px;
+	margin-left:5px;
+	margin-top:10px;
+	float: right;
+	font-size: 18px;
+	margin-bottom:10px;
+	color:white;
+	text-decoration:none;
+}
+.topnav a.left{
+	margin-right:20px;
+	margin-top:6px;
+	margin-bottom:6px;
+	margin-left:20px;
+	float: left;
+	font: Oleo Script;
+	font-size:30px;
+    color: white;
+    background-color:black;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+    text-decoration:none;
+}
+.topnav input{
+	width:12%;
+	border: 2px white;
+	border-radius: 4px;
+	height: 1px;
+	float: left;
+	display: block;
+	padding: 10px 16px;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:10px;
+}
+.topnav input:focus {
+    outline: none !important;
+}
+.topnav img{
+	border-radius:50%;
+	width:17px;
+	height:17px;
+}
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.topnav .logout a:hover{
+  background-color: white;
+  color: black;
+}
+.topnav .logout a{
+	color:black;
+	text-decoration:none;
+}

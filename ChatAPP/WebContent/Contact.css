@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+.#contacts {
+  background-color: #778899;
+  padding:0px;
+  height:30px;
+}
+
+.info{
+	list-style-type: none;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-style:double;
+	padding:10px;
+	padding-left:40px;
+	background-color:#F5F5F5;
+	border-color:#778899;
+	border-bottom:1px solid black;
+	border-radius:8px;
+}
+
+
+#contacts a{
+	background-color:#F5F5F5;
+	color:Black;
+	text-decoration:none;
+}
+
+#contacts a spam{
+	font-size:15px;
+	color:white;
+	background:black;
+	margin-left:auto;
+	margin-right:auto;
+	width:fit-content;
+	align-text:center;
+	display: inline-block;
+	border-radius:50%;
+}
+
+.col1 .input-icons i {
+	position: absolute;
+}
+		
+.col1 .input-icons {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#contacts .name{
+	font-size:20px;
+	font-weight:bold;
+	font-style:oblique;
+}
+
+#contacts .msg	{
+	font-size:13px;
+	font-style:italic;
+}
+#contacts .msg span{
+	float:right;
+	text-align:right;
+	font-size:25px;
+	color:black;
+	background-color:#F5F5F5;
+}
+.col1 .inp{
+	border-bottom:2px ridge grey;
+	margin-top:8px;
+	font-size:25px;
+}
+.col1 #newchat{
+	margin-top:0px;
+	border-radius:2px;
+	border:1px solid white;
+	border-bottom:2px ridge grey;
+	width:90%;
+	height:30px;
+	font-size:18px;
+	padding-left:5px;
+}
+.col1 input:focus {
+    outline: none !important;
+}
+.col1 #namelist{
+	width:95%;
+	height:fit-content;
+	max-height:200px;
+	overflow:hidden;
+	z-index:3;
+	background:white;
+	position:absolute;
+}
+.col1 #namelist li{
+	background:	#F5F5F5;
+	border-bottom:1px solid #808080;
+	border-right:1px solid #808080;
+	font-size:20px;
+	size:35px;
+	height:20px;
+	padding:10px 15px;
+	list-style-type: none;
+}
+.col1 #namelist ul{
+	padding-left:0px;
+}
+.col1 tr{
+	width:100%;
+}
+.col1 #m{
+	width:90%;
+}
+.col1 #d{
+	width:20%;
+	text-align:right;
+}
+
+.col1 #contacts a li .icons{
+	font-size:15px;
+}
+
+#contacts a .msg #m .s{
+	font-size:12px;
+}
+
+#contacts .imp{
+	background-color:#40E0D0;
+}
+.col1 #namelist #show-imp{
+	position:relative;
+}
+.col1 .initial{
+	display:none;
+	position:fixed;
+	margin-top:17%;
+	margin-left:7%;
+	float:center;
+	text-align:center;
+}
+.col1 .initial i{
+	font-size:70px;
+}
+.col1 .initail span{
+	float:left;
+}
+.col1 .input-icons .inf{
+	display:none;
+	position:fixed;
+	color:white;
+	background-color:#888888;
+	font-size:25px;
+	border-radius:3px;
+	margin-left:10px;
+	margin-top:5px;
+}

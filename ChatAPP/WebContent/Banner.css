@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+.banner{
+  position:fixed;
+  margin:0 auto;
+  height: 25%;   
+  width: 20%;   
+  z-index:2;
+  margin-left:7%;
+  margin-top:10%;
+  background-color:#E7E9EB;
+  border-radius:5px;
+  border:3px double black;
+}
+
+.banner #message{
+	border-radius:5px;
+	margin-top:5px;
+	margin-left:10px;
+}
+
+.banner button{
+	background-color:#C0C0C0;
+	padding:5px;
+	font-size:19px;
+	margin-top:20px;
+	margin-left:10px;
+	border:none;
+	border-radius:5px;
+}
+
+.banner #send{
+	
+}
+.banner #cancel{
+	
+}
+
+.banner button i{
+	font-size:13px;
+	color:#808080;
+}
+
+.banner #head{
+	border-radius:5px;
+	height:25px;
+	background-color:black;
+	color:grey;
+}
+
+.banner #head span{
+	float:right;
+	color:#D0D0D0;
+}
+
+.banner #senddate{
+	margin-left:10px;
+	margin-top:25px;
+}
+
+.banner #sendtime{
+	width:100px;
+	margin-left:10px;
+	margin-top:25px;
+}
+
+.banner #sendtime::placeholder{
+	color:white;
+	opacity:1;
+}
+
+input[type="date"] *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input[type="date"],input[type="time"]{
+    background-color: #808080;
+    padding: 4px;
+    position: relative;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+input[type="time"]::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.col2 #content .banner .comment{
+	display:none;
+	margin:10px;
+	font-size:13px;
+}
+
+.col2 #content .banner .valid{
+	color:chocolate;
+}
+
+.col2 #content .banner .fail{
+	color:#FF4444;
+}
+.col2 #content .banner .success{
+	color:#006600;
+}
